@@ -100,6 +100,7 @@ outputs = output_layer(x)
 
 model = keras.Model(inputs=inputs, outputs=outputs)
 model.summary()
+keras.utils.plot_model(model,show_shapes=True)
 
 # %%
 # Model compilation
