@@ -9,6 +9,9 @@
 ### Summary
 This project is an image classification project of datasets that contains images of cracked concrete in the positive folder and images of concretes without cracks in the negative folder. This project serves as a practice to get a better understanding on developing an NLP predictions model. The goal is to get atleast a 90% prediction accuracy and which was achieved as can be seen in the classification report below. The problems faced in this project is when trying to split the datasets into training,  validation and testing datasets. The datasets was only distributed into the two folders mentioned before. To split it, tensorflow.keras.image_dataset_from_directory() was used. The architecture of the model is developed by implementing transfer learning of keras model MobileNetV2.
 
+### Model architecture
+![Model architecture](https://user-images.githubusercontent.com/121662880/211844892-47bdf692-9e4c-42ba-897f-45fbb480d68d.png)
+
 ### Classification report
 ![Classification report](https://user-images.githubusercontent.com/121662880/211803217-8f7fb2a4-1f1a-4600-a4c5-ba4f995ce69d.PNG)
 
@@ -24,5 +27,4 @@ This project is an image classification project of datasets that contains images
 ### Credits
 The datasets was obtained from --> https://data.mendeley.com/datasets/5y9wdsg2zt/2
 
-### Model architecture
-![Concrete cracks image classification model](https://user-images.githubusercontent.com/121662880/211804001-9d503ce7-dd97-4b2e-9a68-4ef33cb98230.png)
+
