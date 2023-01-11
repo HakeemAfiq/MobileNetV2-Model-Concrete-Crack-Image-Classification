@@ -86,7 +86,6 @@ keras.utils.plot_model(feature_extractor,show_shapes=True)
 # %%
 # create the classification layers
 global_avg = layers.GlobalAveragePooling2D()
-# l1 = keras.regularizers.L1()
 output_layer = layers.Dense(len(class_names), activation='softmax')
 
 #%%
@@ -154,5 +153,3 @@ disp.plot()
 # %%
 # Model saving
 model.save('Concrete_cracks_image_classification_model.h5')
-
-# %%
